@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Admin - Pizzaria</title>
+</head>
+<body>
+
+<h2>🔐 Painel Admin</h2>
+
+<input id="senha" type="password" placeholder="Senha">
+<button onclick="login()">Entrar</button>
+
+<script>
+function login(){
+  if(document.getElementById("senha").value === "1234"){
+    window.location = "painel.html";
+  } else {
+    alert("Senha incorreta");
+  }
+}
+</script>
+
+</body>
+</html>
+
